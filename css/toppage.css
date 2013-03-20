@@ -1,0 +1,79 @@
+				.top{
+            	background:url(/img/grid.jpg) no-repeat;
+            	height:100%;
+            	width:100%;
+            	background-size: 100% 100%;
+            	margin-top: -10px;
+
+        		} 
+
+         		.logo   {
+                background:url(/img/logo.png);
+                height:100px;
+                width:400px;
+                margin-left:10px;
+                margin-top:10px;
+    
+                }
+                 .demo   { 
+                float:right;
+
+                margin-top:-2em;
+                margin-right:8em;
+                font-size:1.2em;
+                border: 1px solid grey;
+                padding-left:6px;
+                padding-right:6px;
+                background-color: white;
+                cursor:pointer;
+
+                }
+                        .contact{
+                float:right;
+                margin-top:-2em;
+                margin-right:2em;
+                font-size: 1.2em;
+                border: 1px solid grey;
+                padding-left:6px;
+                padding-right:6px;
+                background-color: white;
+                cursor:pointer;
+
+                }
+                        #slidebaseball   {
+                background:url(/img/slide_baseball.jpg) no-repeat;
+                height:350px;
+                width:100%;
+                background-size: 100% 100%;
+                margin-top:10px;
+    			}
+    			        #slogan{
+                padding-top:20px;
+                text-align: center;
+                padding-bottom:20px;
+                }
+                .nav{
+                border:1px solid #ccc;
+                border-width:1px 0;
+                padding-top:10px;
+                padding-bottom:10px;
+                text-align:center;
+                background: url(/img/nav_background.jpg) no-repeat;
+                background-size: 100% 100%;
+                margin-top:-10px;
+                margin-left:-20px;
+                
+            	}
+       			 .nav li{
+                display:inline;
+                font-size: 1.2em;
+                color:white;
+                padding-top:12px;
+                padding-bottom:12px;
+                padding-right:20px;
+                padding-left:20px;
+                }
+        		.nav li:hover{
+                background:url(/img/nav_hover.jpg) no-repeat;
+                cursor: pointer;
+            	}

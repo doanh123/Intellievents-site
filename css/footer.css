@@ -1,0 +1,41 @@
+.footer{
+            background-color:#437495;;
+                height:200px;
+                width:100%;
+                background-size: 100% 100%;
+                margin-top:10px;
+
+        }
+        .footer_nav{
+            display:inline;
+            text-align:center;
+            padding-top:500px;
+            margin-top:500px;
+            margin-left:50px;
+        }
+
+        .footer_nav li{
+            display:inline;
+            margin-top:100px;
+            margin-right:100px;
+            font-size:1.2em;
+            color:white;
+        }
+
+        .footer_title{margin-top:-180px;}
+
+        .footer_text{
+            color:white;
+            list-style-type: none;
+}
+         .company_footer{
+            margin-left:50px;
+         }
+         .solution_footer{
+         margin-left:240px;
+         margin-top:-125px;
+         }
+         .legal_footer{
+         margin-left:420px;
+         margin-top:-80px;
+         }

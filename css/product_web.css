@@ -1,0 +1,156 @@
+				.product2{
+        		}
+				.product_nav{
+                border-width:1px 0;
+                padding-top:5px;
+                padding-bottom:5px;
+                text-align:center;
+                margin-top:40px;
+            	}
+            	.product_nav li{
+                display:inline;
+                font-size: 2em;
+                padding-top:8px;
+                color: #989898;
+                font-style: italic;
+                padding-bottom:8px;
+                padding-right:120px;
+                padding-left:120px;
+                }
+ 				.product_nav li:hover{
+                background:url(/img/product_nav.jpg) no-repeat;
+                background-size: 100% 100%;
+                cursor: pointer;
+            	}
+            #websolutionbutton {
+            border-right: 1px  grey solid;
+            background:url(/img/product_nav.jpg) no-repeat;
+            background-size: 100% 100%;
+            }
+  			.websolution{
+              
+        	}
+   			.websolutiondisplay{
+            margin-top:20px;
+            height:500px;
+            width: 100%;
+        	}
+        	#computer{
+           
+           height:600px;
+           width: 600px;
+           margin-left:80px;
+           background-size: 100% 100%; 
+           background:url(/img/compscreen.png) no-repeat;
+        }
+   			#display_image0{
+            height:40px;
+            width:436px;
+            margin-left:80px;
+            margin-top:0px;
+        	}
+         	#display_image1{
+            background: url(/img/websolution/socialcrm.png);
+            height:270px;
+            width:433px;
+            margin-left:81px;
+        	}
+        	#display_image2{
+            background: url(/img/websolution/databasemanagement.png);
+            height:270px;
+            width:433px;
+            margin-left:81px;
+            display:none;
+        	}
+           	#display_image3{
+            background: url(/img/websolution/targetedmarketing.png);
+            height:270px;
+            width:433px;
+            margin-left:81px;
+            display:none;
+        	}
+            #display_image4{
+            background: url(/img/websolution/emailcampaign.png);
+            height:270px;
+            width:433px;
+            margin-left:81px;
+            display:none;
+        	}
+            #display_image5{
+            background: url(/img/websolution/leadscoring.png);
+            height:270px;
+            width:433px;
+            margin-left:81px;
+            display:none;
+        	}
+            #accordion{
+            float:right;
+            width:475px;
+            margin-right:120px;
+            margin-top:-600px;
+        	}
+            .mobilesolution{
+            display:none;
+        	}
+            .mobilesolutiondisplay{
+            margin-top:20px;
+            height:500px;
+            width: 100%;
+        	}
+         	#phone{  
+        	height:500px;
+        	width: 252px;
+        	float:right;
+        	margin-right:150px;
+        	margin-left:80px;
+        	background-size: 100% 100%; 
+        	background:url(/img/iphone2.png) no-repeat;
+        	}
+            #phone_image1{
+            background: url(/img/mobilesolution/friends.png);
+            height:315px;
+            width:210px;
+            margin-top:85px;
+            margin-left:25px;
+            }
+            #phone_image2{
+            background: url(/img/mobilesolution/targetedmarketing.png);
+            height:315px;
+            width:210px;
+            margin-left:25px;
+            margin-top:86px;
+            display:none;
+            }
+            #phone_image3{
+            background: url(/img/mobilesolution/fanloyalty.png);
+            height:315px;
+            width:210px;
+            margin-left:25px;
+            margin-top:86px;
+            display:none;
+            }
+            #phone_image4{
+                background: url(/img/mobilesolution/realtimepurchase.png);
+            height:315px;
+            width:210px;
+            margin-left:25px;
+            margin-top:86px;
+            display:none;
+            }
+            #phone_image5{
+            background: url(/img/mobilesolution/communication.png);
+            height:315px;
+            width:210px;
+            margin-left:25px;
+            margin-top:86px;
+            display: none;
+            }
+            #accordion2{
+            width:475px;
+            margin-left: 120px;
+            height:600px;
+        	}
+
+        	#accordion h3, #accordion2 h3{
+            color:#437495;
+        	}
