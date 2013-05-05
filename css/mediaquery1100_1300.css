@@ -1,0 +1,63 @@
+/* products tab */
+
+   			.websolutiondisplay{
+            margin-top:20px;
+            height:600px;
+            width: 100%;
+        	}
+        	#computer{
+           
+           height:441px;
+           width: 569px;
+           margin-left:30px;
+           background:url(img/compscreenmedium.png) no-repeat;
+        }
+   			#display_image0{
+            height:38px;
+            width:436px;
+            margin-left:80px;
+            margin-top:0px;
+        	}
+         	#display_image1{
+            background: url(img/websolution/socialcrmmedium.png) no-repeat;
+            height:316px;
+            width:504px;
+            margin-left:78px;
+        	}
+        	#display_image2{
+            background: url(img/websolution/leadscoringmedium.png) no-repeat;
+            height:316px;
+            width:504px;
+            margin-left:78px;
+            display:none;
+        	}
+           	#display_image3{
+            background: url(img/websolution/targetedmarketingmedium.png) no-repeat;
+            height:316px;
+            width:504px;
+            margin-left:78px;
+            display:none;
+        	}
+            #display_image4{
+            background: url(img/websolution/emailcampaignmedium.png) no-repeat;
+            height:316px;
+            width:504px;
+            margin-left:78px;
+            display:none;
+        	}
+            #display_image5{
+            background: url(img/websolution/databasemanagementmedium.png) no-repeat;
+            height:316px;
+            width:504px;
+            margin-left:78px;
+            display:none;
+        	}
+			
+			
+            #accordion{
+            float:right;
+            width:475px;
+            margin-right:50px;
+            margin-top:-420px;
+        	}
+  

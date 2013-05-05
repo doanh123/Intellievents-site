@@ -8,10 +8,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Intellievents Inc.</title>
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <meta name="description" content="SaaS and mobile enterprise solution for powering large live events." />
-    <meta name="keywords" content="SaaS, Mobile, business intelligence, social customer relationship management, real time seat upgrades, fan loyalty program, ncaa, nba, nfl, nhl, mlb, concerts, social media monitoring, intellievents, intellievent, intelievents, intelievent, intellivents, intellevents, intellivent, intellevent, intelivents, intelivent, intelevent, intelevents" />
+        <title>Intellievents Inc. | Powering Smarter Customer Interactions</title>
+        <link rel="shortcut icon" href="css/img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Intellievents will seamlessly connect with your contact’s social profiles across Facebook, LinkedIn, and Twitter so that your team can learn more about and engage with your most valuable customers. We capture important sales and contact information as well as identify opportunities for your team in real-time." />
+    <meta name="keywords" content="SaaS, Mobile, business intelligence, social customer relationship management, CRM, SugarCrm, realtime seat upgrades, fan loyalty program, ncaa, nba, nfl, nhl, social media monitoring, UC Berkeley, Skydeck" />
 
     <link rel="canonical" href="http://www.intellievents.com/" />
         <meta name="viewport" content="width=device-width">
@@ -21,45 +21,13 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/toppage.css">
-        <link rel="stylesheet" href="css/product_web.css">
-        <link rel="stylesheet" href="css/footer.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         
-
-        <style>
-
-
-
-    
-      
-               
-              
-
-        /*product page style */
-
-        .product{
-             width:100%;
-             height:700px;
-             display:none;
-        }
-        .about{
-            width:100%;
-            height:700px;
-        }
-        .contactus{
-            width:100%;
-            height:700px;
-        }
-        .press{
-            width:100%;
-            height:700px;
-        }
-            
-       
-        .newsview{display:none;}
-     
-      </style>
-
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+		<script src="js/jquery.colorbox-min.js"></script>
+		<link rel="stylesheet" href="css/product_web.css">
+        <link rel="stylesheet" href="css/footer.css">
 
 
     </head>
@@ -70,30 +38,32 @@
 
         <div class="top">
         <!-- top part of the page !-->
-             <div class="logo"> </div>
-       <div class="demo"> Demo </div>
-            <div class="contact"> Contact</div>
+            <div class="logo"> </div>
+			<div class="demo"><a class="vimeo cboxElement" href="http://player.vimeo.com/video/62910244" title="Intellievents Demo" style="text-decoration:none; color:grey;"; onClick="_gaq.push(['_trackEvent', 'Demo', 'clicked on demo'])";> Demo </a></div>
+           <div class="contact">Sales : 1-855-307-6023</div>
+
             <div id="slidebaseball" class= "slider"></div>
-            <h1  id="slogan">Powering Smarter Customer Interactions </h1>
+            <h1  id="slogan">Analyze. Incentivize. Monetize. </h1>
 
         </div>
 
-        <div>
+
         <!-- middle navigation bar !-->
         <ul class="nav">
-          <li id = "product">Product</li>
-          <li id = "pricing">Pricing</li>
-          <li id = "press">Press</li>
-          <li id = "about">About</li>
-          <li id = "contact" >Contact</li>
+           <li id = "pricing"; onClick="_gaq.push(['_trackEvent', 'Pricing', 'clicked on pricing tab'])";>How it Works</li>
+		   <li id = "product"; onClick="_gaq.push(['_trackEvent', 'Product', 'clicked on product tab'])";>Product</li>
+         
+         <!-- <li id = "awards"; onClick="_gaq.push(['_trackEvent', 'Awards', 'clicked on awards tab'])";>Awards</li> -->
+          <li id = "about"; onClick="_gaq.push(['_trackEvent', 'About', 'clicked on about tab'])";>Team</li>
+          <li id = "contact"; onClick="_gaq.push(['_trackEvent', 'Contact', 'clicked on contact tab'])"; >Contact</li>
         </ul>
-        </div>
+
 
         <div class="product2">
         <!-- page content !-->
             <ul class="product_nav">
-              <li id="websolutionbutton">Web Solution</li>
-              <li id="mobilesolutionbutton">Mobile Solution</li>
+              <li id="websolutionbutton"; onClick="_gaq.push(['_trackEvent', 'Web Solution', 'clicked on websolution'])";>Web Solution</li>
+              <li id="mobilesolutionbutton"; onClick="_gaq.push(['_trackEvent', 'Mobile Solution', 'clicked on mobile solution'])";>Mobile Solution</li>
             </ul>
                 <div class= "websolution">
 
@@ -116,45 +86,44 @@
 
                 </div>
                 <div id="accordion">
-                    <h3 id="computeraccordian1" >Social CRM</h3>
+                    <h3 id="computeraccordion1" >Social CRM</h3>
                     <div>
-                    <p>
-                    Intellievents will seamlessly connect with your contact’s social profiles across Facebook, LinkedIn, and Twitter so that your team can learn more about and engage with your most valuable customers. We capture important sales and contact information as well as identify opportunities for your team  in real-time.  
+                    <p id="accordionp">
+                    Intellievents will seamlessly connect with your contact’s social profiles across Facebook, LinkedIn, and Twitter so that your team can learn more about and engage with your most valuable customers. Our social CRM allows your team to manage your contacts and segment your customers. We capture important sales and contact information as well as identify opportunities for your team in real-time. 
                     </p>
                     </div>
-                  <h3 id="computeraccordian2" >Contact & Database Management</h3>
+                  <h3 id="computeraccordion2" >Live Events Manager</h3>
                   <div>
                     <p>
                     
-                    Import all of your Contacts into one easy to use database.      
-
-                    Intellievents is a powerful tool for bringing together all of your contacts from many disparate locations into one central place and helping you nurture the new and important contacts in your network.  
-
+                    Manage your live events through our web platform. Our CRM and Mobile solution allows you to sell tickets directly to your fans, enable real-time seat upgrades, and provide new marketing opportunities and a direct line of communication with your customers. 
                     </p>
                   </div>
-                  <h3 id="computeraccordian3" >Data-driven Targeted Marketing</h3>
+                  <h3 id="computeraccordion3" >Media Manager</h3>
                   <div>
                     <p>
-                    Easily import leads, create campaigns, measure marketing spend, and analyze the impact of every marketing program from lead capture to sale completion. From something as simple as automating a birthday reminder to contacting a customer who recently received a promotion at work, Intellievents provides you tremendous social intelligence and automation capabilities.
+                    Easily import leads, create campaigns, measure marketing spend, and analyze the impact of every marketing program from lead capture to sale completion. From something as simple as automating a birthday reminder to contacting a customer who recently received a promotion at work, Intellievents provides you tremendous social intelligence and automation capabilities. We allow you to have a live feed of your customer's social media including their latest status update and tweets.
                     </p>
                    
                   </div>
-                  <h3 id="computeraccordian4" >Email Campaign Management</h3>
+                  <h3 id="computeraccordion4" >Data-driven Targeted Marketing</h3>
                   <div>
                     <p>
                     
-                    Intellievents will let you know who opened your email, what links they clicked, and intelligently automate your marketing efforts. View core contact information, all customer activities, emails, notes, and social conversations related to that contact, in one clean and simple screen.
+                    Intellievents will let you know who opened your email, what links they clicked, and intelligently automate your marketing efforts. View core contact information, all customer activities, emails, notes, and social conversations related to that contact, in one clean and simple screen. We allow you to measure and evaluate the effectiveness of your marketing programs through integrated A/B testing tools.
 
                     </p>
                     
                   </div>
-                  <h3 id="computeraccordian5" >Lead Scoring</h3>
+                  <h3 id="computeraccordion5" >Loyalty Rewards Manager</h3>
                   <div>
                     <p>
-                    Easily connect all of your contacts, calendars, communications and social conversations. Listen to and engage any individual in order to attract and retain the right customers.
+                     Intellievents helps automate your sales, marketing, and loyalty rewards decisions by providing you three types of lead scoring engines: Virtual, Physical, and Fan Engagment. Virtual Scoring measures how engaged your customers are with you across all social media.  Physical Scoring measures how much customers have spent across your organization. Fan Loyalty Scoring measures how engaged your customers are across your entire enterprise. Together, these engines help you decide which fans to target for which opportunities and at what price.
                     </p>
                     
                   </div>
+				 
+                
             </div>
         </div>
     </div>
@@ -179,43 +148,43 @@
 
 
                 <div id="accordion2">
-                    <h3 id="mobileaccordian1" >Social Connectedness</h3>
+                    <h3 id="mobileaccordion1" >Social</h3>
                     <div>
                     <p>
-                    The number one motivator for people attending events is their friends. Our mobile application allows users to know which of their friends are attend an upcoming event and purchase tickets sitting next to them.
+                    The number one motivator for people attending events is their friends. Our mobile application allows users to know which of their friends are attend an upcoming event and purchase tickets sitting next to them. We enable users to create groups, send messages to friends, and plan their next live-event all within the app.
                     </p>
                     </div>
-                  <h3 id="mobileaccordian2">Targeted Advertising & Sponsorships </h3>
+                  <h3 id="mobileaccordion2">Real-time News Feed</h3>
                   <div>
                     <p>
                     
-                    Advertise directly with users to promote upcoming events, promotions, and sales. 
-
+					Users get real-time information about the events that their friends are attending as well new events, promotions, and sales. Our intelligent algorithm recommends events to users based on their app usage which encourages them to attend more events.
+				
                     </p>
                   </div>
-                  <h3 id="mobileaccordian3">Fan Loyalty Program</h3>
+                  <h3 id="mobileaccordion3">Fan Loyalty Program</h3>
                   <div>
                     <p>
                     Reward your most loyal customers to keep them more engaged. Know who your most valuable customers are and what motivates them to attend your events.
                     </p>
                    
                   </div>
-                  <h3 id="mobileaccordian4">Real-time Purchases</h3>
+                  <h3 id="mobileaccordion4">Gameday</h3>
                   <div>
                     <p>
                     
-                    Sell tickets, upgrades, merchandise, concessions, parking and more directly to your customers. Make the event going process as seamless as possible by streamlining major transactions.
+                    Sell tickets, upgrades, merchandise, concessions, parking and more directly to your customers. Make the event-going process as seamless as possible by streamlining major transactions. Reduce the inconveniences and inefficiencies of attending live events by giving your fans the information that they need including venue navigation, team stats, and more.
 
                     </p>
 
                     
                   
               </div>
-              <h3 id="mobileaccordian5">Direct Line of Communication</h3>
+              <h3 id="mobileaccordion5">Specialty Promotions</h3>
                   <div>
                     <p>
                     
-                    Provide your customers with data through the app in order to enhance their experience. Have a direct line of communication with your customers anytime and anywhere.
+                    Advertise directly with users to promote upcoming events, promotions, and sales. Use data-driven analytics to improve your product offering and increase in-game spending.
 
                     </p>
 
@@ -230,77 +199,266 @@
 </div>
 </div>
     </div>
-    <!--
-        <div class="pricing">
-        </div>
-        <div class="press">
-            <ul class="product_nav">
-              <li id="websolutionbutton">Awards</li>
-              <li id="mobilesolutionbutton">News</li>
-            </ul>
-            <div class= "awardsview">
-                <table border="1" bordercolor="#CCCCCC" style="background-color:#FFFFFF" width="300" cellpadding="8" cellspacing="0">
-    <tr>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-    </tr>
-    <tr>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-    </tr>
-    <tr>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-    </tr>
+
+        
+		
+<div class="pricing">
+
+<h2>How it Works</h2>
+
+<div class="marketingflyer"> </div>
+</div> 
+
+<div class="awards">
+
+<h2 id="awardtext">Awards Received</h2>
+
+
+    <table class = "awardrow1">
+<tr>
+
+<td>
+    <div class="awardmiddle" id="award1"></div>
+</td>
+<td>
+<div class="awardmiddle" id="award2" ><a href="#"></a></div>
+</td>
+<td>
+<div class="awardmiddle" id="award3" ><a href="#"></a></div>
+</td>
+<td>
+<div class="awardmiddle" id="award4" ><a href="#"></a></div>
+</td>
+<td>
+<div class="awardmiddle" id="award5"><a href="#"></a></div>
+</td>
+</tr>
+
+<tr>
+
+<td>
+<h3>Semifinalist</h3></a>
+</td>
+<td>
+<h3>People's Choice Award</h3>
+</td>
+<td>
+<h3>Finalist</h3>
+</td>
+<td>
+<h3>Incubation</h3>
+</td>
+<td>
+<h3>First Prize</h3>
+</td>
+</tr>
 </table>
-            </div>
-            <div class= "newsview">
-                <table border="1" bordercolor="#CCCCCC" style="background-color:#FFFFFF" width="300" cellpadding="8" cellspacing="0">
-    <tr>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-    </tr>
-    <tr>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-    </tr>
-    <tr>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-    </tr>
+</div>
+
+<div class="about">
+
+<!--<h2>About Us</h2>
+
+<h4 style="width:70%; margin-left:auto; margin-right:auto;">Intellievents was founded by UC Berkeley and Columbia University alumni. Our vision is to maximize the 
+way people experience their 
+favorite events by transforming 
+how event organizers and 
+marketers interact and learn 
+from their customers – in realtime. Intellievents gives event 
+organizers and marketers the 
+data and analytics to segment 
+and market directly to their 
+customers as well as the tools 
+to fuel incremental revenue </h4>
+-->
+
+<h2>Intellievents Team</h2>
+    <table class = "teamrow1">
+<tr>
+
+<td>
+    <div class="teammiddle" id="team1"></div>
+</td>
+<td>
+<div class="teammiddle" id="team2"><a href="#"></a></div>
+</td>
+<td>
+<div class="teammiddle" id="team11"><a href="#"></a></div>
+</td>
+<td>
+<div class="teammiddle" id="team3"><a href="#"></a></div>
+</td>
+</tr>
+
+<tr>
+
+<td>
+<h4  style="margin-left:-30px">Mark Elbadramany<br>Founder/CEO</h4></a>
+</td>
+<td>
+<h4>Rick Zullo <br> Business Dev</h4>
+</td>
+<td>
+<h4>Hamza Lazrak <br> Technology</h4>
+</td>
+<td>
+<h4>Doanh Do <br> Product Manager</h4>
+</td>
+</tr>
+
+
 </table>
-            </div>
-        </div>
-        <div class="about">
-            <h3> The Intellievents Team </h3>
-            <table border="1" bordercolor="#CCCCCC" style="background-color:#FFFFFF" width="300" cellpadding="8" cellspacing="0">
-    <tr>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-    </tr>
-    <tr>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-    </tr>
-    <tr>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-        <td>Table Cell</td>
-    </tr>
+
+
+
+<br>
+<br>
+    <table class = "teamrow1">
+<tr>
+
+<td>
+    <div class="teammiddle" id="team6"></div>
+</td>
+<td>
+<div class="teammiddle" id="team7"><a href="#"></a></div>
+</td>
+<td>
+<div class="teammiddle" id="team8"><a href="#"></a></div>
+</td>
+<td>
+<div class="teammiddle" id="team9"><a href="#"></a></div>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+<h4>Vinit Nayak <br> Software Engineer</h4>
+</td>
+<td>
+<h4>Omar Ramadan <br> Software Engineer</h4>
+</td>
+<td>
+<h4>Tom Selvi <br> Software Engineer</h4>
+</td>
+<td>
+<h4>Jaimee Dunning <br> Visual Designer</h4>
+</td>
+<td>
+
+</tr>
+
+
 </table>
-        </div>
-        <div class="contactus">
-            <h4> Get in Contact, Find out what we can do for you</h4>
-        </div>
-    -->
+
+<br>
+<br>
+    <table class = "teamrow1">
+<tr>
+
+<td>
+    <div class="teammiddle" id="team5"></div>
+</td>
+<td>
+<div class="teammiddle" id="team4"><a href="#"></a></div>
+</td>
+<td>
+<div class="teammiddle" id="team10"><a href="#"></a></div>
+</td>
+<td>
+<div class="teammiddle" id="team12"><a href="#"></a></div>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+<h4>Wilson Tang <br> Software Engineer</h4>
+</td>
+<td>
+<h4>Michel Mikhail <br> Software Engineer</h4>
+</td>
+<td>
+<h4>Iris Lin <br> UI/UX Designer</h4>
+</td>
+<td>
+<h4>Ankit Vij <br> Marketing</h4>
+</td>
+<td> 
+
+</tr>
+
+
+</table>
+</div>
+
+           
+
+<div class="contactus">
+
+<h2>Get in touch. Find out what we can do for you</h2>
+
+<div class="contactdiv">
+<form name="htmlform" method="post" action="html_form_send.php">
+<table width="600px">
+
+
+<tr>
+ <td valign="top">
+  <label for="first_name" class="contacttext">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top">
+  <label for="last_name" class="contacttext">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email" class="contacttext">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone" class="contacttext">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="32" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments" class="contacttext">Comments *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="32" rows="6"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="3" style="text-align:center" id="submit">
+  <input type="submit" value="Submit" style="float:right; margin-right:70px; margin-top:20px;"> 
+ </td>
+</tr>
+</table>
+</form>
+</div>
+
+</div>
+
 
         <div class ="footer">
             
@@ -309,34 +467,53 @@
                 <ul class="footer_nav">
                     <li> Company</li>
                     <li> Solutions</li>
-                    <li> Legal </li>
+                   <!-- <li> Legal </li> -->
                 </ul>
             </div>
             <div class="company_footer">
                 <ul class="footer_text">
-                    <li> About</li>
-                    <li> Press</li>
-                    <li> Jobs </li>
-                    <li> Demo </li>
-                    <li> Contact </li>
+                    <li id="about_footer"> <a>About</a></li>
+                   <!-- <li id="press_footer"> <a>Press</a></li> -->
+                   <!-- <li id="jobs_footer"> <a>Jobs </a> </li> -->
+                    <li id="demo_footer"><a> Demo </a></li>
+                    <li id="contact_footer"> <a href="mailto:info@intellievents.com" style="text-decoration: none; color:white;"> Contact</a> </li>
+					<li id="blog_footer"><a> Blog </a></li>
 
 
                 </ul>
             </div>
              <div class="solution_footer">
-                <ul class='footer_text'>
-                    <li> Web</li>
-                    <li> Mobile</li>
-                    <li> Pricing </li>
+                <ul class="footer_text">
+                    <li id="web_footer"> <a> Web </a></li>
+                    <li id="mobile_footer"> <a> Mobile</a></li>
+                    <li id="pricing_footer"> <a>Pricing</a> </li>
 
                 </ul>
             </div>
-            <div class="legal_footer">
+            <!--<div class="legal_footer">
                 <ul class="footer_text">
-                    <li> Terms</li>
-                    <li> Policy</li>
+                    <li id="terms_footer"> Terms</li>
+                    <li id="policy_footer"> Policy</li>
                 </ul>
-            </div>
+			</div>
+			-->
+			
+            <div class="social_media">
+			<div id = "linkedin"; onclick="location.href='http://www.linkedin.com/company/intellievents'"; style="cursor:pointer"; onClick="_gaq.push(['_trackEvent', 'Linkedin', 'clicked on linkedin'])";> </div>
+			<div id = "twitter"; onclick="location.href='https://twitter.com/Intellievents'"; style="cursor:pointer"; onClick="_gaq.push(['_trackEvent', 'Facebook', 'clicked on facebook'])";> </div>
+			<div id = "facebook"; onclick="location.href='https://www.facebook.com/Intellievents'"; style="cursor:pointer"; onClick="_gaq.push(['_trackEvent', 'Twitter', 'clicked on twitter'])";> 
+		</div>
+		</div>
+				<!-- <div class="phonenumber">
+                     18553076023
+                    
+
+			</div> -->
+		<div class="copyright">
+                      Intellievents Inc. All Rights Reserved &copy 2013 
+                    
+
+			</div>
    </body>
 </html>
 
@@ -354,9 +531,7 @@
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
 
- <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
@@ -366,13 +541,18 @@
             });
 
             $(document).ready(function() {
+			
+				$(".vimeo").colorbox({iframe:true, innerWidth:600, innerHeight:345});
+
+				
   // Handler for .ready() called.
                 $("#websolutionbutton").click(function () {
                     $(".websolution").show();
                     $(".mobilesolution").hide();
                     $( "#accordion" ).accordion();
+                    
                     $("#mobilesolutionbutton").css("background", "none");
-                    $("#websolutionbutton").css("background", "url(img/product_nav.jpg) no-repeat");
+                    $("#websolutionbutton").css("background", "url(css/img/product_nav.png) no-repeat");
                     $("#websolutionbutton").css("background-size", "100% 100%");
                     
 
@@ -381,16 +561,15 @@
                     $(".websolution").hide();
                     $(".mobilesolution").show();
                     $( "#accordion2" ).accordion();
-                    $("#websolutionbutton").css("background", "none");
-                    $("#mobilesolutionbutton").css("background", "url(img/product_nav.jpg) no-repeat");
+					$("#websolutionbutton").css("background", "none");
+                    $("#mobilesolutionbutton").css("background", "url(css/img/product_nav.png) no-repeat");
                     $("#mobilesolutionbutton").css("background-size", "100% 100%");
-
 
 
 
                 });
 
-                $("#mobileaccordian1").click(function () {
+                $("#mobileaccordion1").click(function () {
                     $("#phone_image1").show();
                     $("#phone_image2").hide();
                     $("#phone_image3").hide();
@@ -399,7 +578,7 @@
 
                 });
 
-                $("#mobileaccordian2").click(function () {
+                $("#mobileaccordion2").click(function () {
                     $("#phone_image1").hide();
                     $("#phone_image2").show();
                     $("#phone_image3").hide();
@@ -407,7 +586,7 @@
                     $("#phone_image5").hide();
                 });
 
-                $("#mobileaccordian3").click(function () {
+                $("#mobileaccordion3").click(function () {
                      $("#phone_image1").hide();
                     $("#phone_image2").hide();
                     $("#phone_image3").show();
@@ -415,14 +594,14 @@
                     $("#phone_image5").hide();
                 });
 
-                $("#mobileaccordian4").click(function () {
+                $("#mobileaccordion4").click(function () {
                      $("#phone_image1").hide();
                     $("#phone_image2").hide();
                     $("#phone_image3").hide();
                     $("#phone_image4").show();
                     $("#phone_image5").hide();
                 });
-                $("#mobileaccordian5").click(function () {
+                $("#mobileaccordion5").click(function () {
                     $("#phone_image1").hide();
                     $("#phone_image2").hide();
                     $("#phone_image3").hide();
@@ -430,7 +609,7 @@
                     $("#phone_image5").show();
                 });
 
-                $("#computeraccordian1").click(function () {
+                $("#computeraccordion1").click(function () {
                     $("#display_image1").show();
                     $("#display_image2").hide();
                     $("#display_image3").hide();
@@ -439,7 +618,7 @@
 
                 });
 
-                $("#computeraccordian2").click(function () {
+                $("#computeraccordion2").click(function () {
                     $("#display_image1").hide();
                     $("#display_image2").show();
                     $("#display_image3").hide();
@@ -448,7 +627,7 @@
 
                 });
 
-                $("#computeraccordian3").click(function () {
+                $("#computeraccordion3").click(function () {
                     $("#display_image1").hide();
                     $("#display_image2").hide();
                     $("#display_image3").show();
@@ -457,7 +636,7 @@
 
                 });
 
-                $("#computeraccordian4").click(function () {
+                $("#computeraccordion4").click(function () {
                     $("#display_image1").hide();
                     $("#display_image2").hide();
                     $("#display_image3").hide();
@@ -466,7 +645,7 @@
 
                 });
 
-                $("#computeraccordian5").click(function () {
+                $("#computeraccordion5").click(function () {
                     $("#display_image1").hide();
                     $("#display_image2").hide();
                     $("#display_image3").hide();
@@ -475,8 +654,102 @@
 
                 });
 
+                $("#product").click(function(){
+                    $(".product2").show();
+                    $(".awards").hide();
+                    $(".about").hide();
+                    $(".contactus").hide();
+					$(".pricing").hide();
+
+
+                });
+
+                $("#awards").click(function(){
+                    $(".product2").hide();
+                    $(".awards").show();
+                    $(".about").hide();
+                    $(".contactus").hide();
+					$(".pricing").hide();
+                 });
+
+                $("#about").click(function(){
+                    $(".product2").hide();
+                    $(".awards").hide();
+                    $(".about").show();
+                    $(".contactus").hide();
+					$(".pricing").hide();
+                 });
+
+                $("#contact").click(function(){
+                    $(".product2").hide();
+                    $(".awards").hide();
+                    $(".about").hide();
+                    $(".contactus").show();
+					$(".pricing").hide();
+                 });
+                $("#pricing").click(function(){
+                    $(".product2").hide();
+                    $(".awards").hide();
+                    $(".about").hide();
+					$(".contactus").hide();
+                    $(".pricing").show();
+                 });
+				 
+				 //footer
+				 
+				  $("#about_footer").click(function(){
+                    window.scrollTo(0,400);
+					$("#about").click();
+                 });
+				 
+				  $("#press_footer").click(function(){
+                    window.scrollTo(0,400);
+					$("#awards").click();
+                 });
+				  $("#blog_footer").click(function(){
+				
+					window.location = 'http://www.intellievents.blogspot.com';
+
+                 });
+				  $("#demo_footer").click(function(){
+                    window.scrollTo(0,0);
+					$("#demo").click();
+                 });
+
+				 $("#web_footer").click(function(){
+                    window.scrollTo(0,400);
+					$("#product").click();
+					$("#websolutionbutton").click();
+                 });
+				 $("#mobile_footer").click(function(){
+                    window.scrollTo(0,400);
+					$("#product").click();
+					$("#mobilesolutionbutton").click();
+                 });
+				 $("#pricing_footer").click(function(){
+                    window.scrollTo(0,400);
+					$("#contact").click();
+                 });
+
+
+
+
 
             });
 
         </script>
+<!-- 
+<link rel="stylesheet" href="/Applications/XAMPP/xamppfiles/htdocs/IntellieventssiteV5/file_name/css/awards.css">
+<link rel="stylesheet" href="/Applications/XAMPP/xamppfiles/htdocs/IntellieventssiteV5/file_name/css/about.css">
+<link rel="stylesheet" href="/Applications/XAMPP/xamppfiles/htdocs/IntellieventssiteV5/file_name/css/contact.css"> -->
 
+
+<link rel="stylesheet" href="css/awards.css">
+<link rel="stylesheet" href="css/about.css">
+<link rel="stylesheet" href="css/pricing.css">
+<link rel="stylesheet" href="css/contact.css">
+<link rel="stylesheet" href="css/colorbox.css" >
+<link rel="stylesheet" media='screen and (min-width: 1100px) and (max-width: 1300px)' href="css/mediaquery1100_1300.css">
+<link rel="stylesheet" media='screen and (min-width: 960px) and (max-width: 1100px)' href="css/mediaquery960_1100.css">
+<link rel="stylesheet" media='screen and (min-width: 790px) and (max-width: 960px)' href="css/mediaquery790_960.css">
+<link rel="stylesheet" media='screen and (min-width: 100px) and (max-width: 790px)' href="css/mediaquery620_790.css"> 

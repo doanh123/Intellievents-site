@@ -1,0 +1,82 @@
+
+.awards{
+	height:600px;
+	display: none;
+	background:url(img/background_center.jpg) no-repeat;
+    width:100%;
+    background-size: 100% 100%;
+	margin-top:-15px;
+	padding-top:20px;
+	padding-bottom:100px;
+}
+.awards h2{
+	text-align:center;
+	font-size: 2em;
+    padding-top:8px;
+    color: #989898;
+    font-style: italic;
+}
+
+.awardrow1{
+	width:80%;
+	padding-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.awardrow1 td{
+	border: 1px grey solid;
+}
+
+.awardrow1 h3{
+	text-align:center;
+}
+
+.awardrow1 img{
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.awardmiddle{
+	text-align: center;
+}
+
+#award1{
+	background:url(img/awards/bplan.jpg);
+	height: 93px;
+	width:175px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#award2{
+	background:url(img/awards/havard.jpg);
+	height: 163px;
+	width:175px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#award3{
+	background:url(img/awards/intel.jpg);
+	height: 173px;
+	width:176px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#award4{
+	background:url(img/awards/skydeck.jpg);
+	height: 79px;
+	width:175px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#award5{
+	background:url(img/awards/columbia.jpg);
+	height: 134px;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+}

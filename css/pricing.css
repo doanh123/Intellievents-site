@@ -1,0 +1,26 @@
+.pricing{
+	height:1100px;
+	display: none;
+	background:url(img/background_center.jpg) no-repeat;
+    width:100%;
+    background-size: 100% 100%;
+	margin-top:-15px;
+	padding-top:20px;
+	
+}
+
+.marketingflyer{
+	height:900px;
+	width:695px;
+	background:url(img/marketingflyer1.jpg);
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.pricing h2 {
+text-align: center;
+font-size: 2em;
+padding-top: 8px;
+color: #989898;
+font-style: italic;}

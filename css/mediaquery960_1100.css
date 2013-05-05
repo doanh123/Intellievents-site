@@ -1,0 +1,175 @@
+/* products tab */
+				.product2{
+				background:url(img/background_center.jpg) no-repeat;
+            	height:600px;
+            	width:100%;
+            	background-size: 100% 100%;
+				padding-bottom:50px;
+        		}
+				.product_nav{
+                border-width:1px 0;
+                padding-top:50px;
+                padding-bottom:5px;
+
+                margin-top:-15px;
+            	}
+            	.product_nav li{
+  
+                font-size: 1.2em;
+                padding-top:8px;
+
+                padding-bottom:8px;
+                padding-right:80px;
+                padding-left:80px;
+                }
+
+            #mobilesolutionbutton {
+            border-left: 1px  grey solid;
+            }
+			#websolutionbutton{
+			background:url(img/product_nav.png) no-repeat;
+            background-size: 100% 100%;
+			}
+  			.websolution{
+              
+        	}
+   			.websolutiondisplay{
+            margin-top:20px;
+            height:500px;
+            width: 100%;
+        	}
+        	#computer{
+           
+           height:441px;
+           width: 569px;
+           margin-left:30px;
+           background:url(img/compscreensmall.png) no-repeat;
+        }
+   			#display_image0{
+            height:30px;
+            width:436px;
+            margin-left:80px;
+            margin-top:0px;
+        	}
+         	#display_image1{
+            background: url(img/websolution/socialcrmsmall.png) no-repeat;
+            height:316px;
+            width:504px;
+            margin-left:62px;
+        	}
+        	#display_image2{
+            background: url(img/websolution/leadscoringsmall.png) no-repeat;
+            height:316px;
+            width:504px;
+            margin-left:62px;
+            display:none;
+        	}
+           	#display_image3{
+            background: url(img/websolution/targetedmarketingsmall.png) no-repeat;
+            height:316px;
+            width:504px;
+            margin-left:62px;
+            display:none;
+        	}
+            #display_image4{
+            background: url(img/websolution/emailcampaignsmall.png) no-repeat;
+            height:316px;
+            width:504px;
+            margin-left:62px;
+            display:none;
+        	}
+            #display_image5{
+            background: url(img/websolution/databasemanagementsmall.png) no-repeat;
+            height:316px;
+            width:504px;
+            margin-left:62px;
+            display:none;
+        	}
+			
+			
+            #accordion{
+            float:right;
+            width:370px;
+            margin-right:60px;
+            margin-top:-425px;
+        	}
+			
+			#accordion h3{
+			font-size:.8em;
+			}
+			
+			#accordion p{
+			font-size:.8em;
+			}
+			#accordion2{
+
+            width:370px;
+			margin-left:100px;
+
+
+        	}
+			
+			#accordion2 h3{
+			font-size:.8em;
+			}
+			
+			#accordion2 p{
+			font-size:.8em;
+			}
+			#phone{  
+
+        	margin-right:100px;
+ 
+        	}
+	.awards{
+	height:450px;}
+			
+			#award1{
+	background:url(img/awards/bplanmedium.jpg) no-repeat;
+	height: 93px;
+	width:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#award2{
+	background:url(img/awards/havardmedium.jpg) no-repeat;
+	height: 139px;
+	width:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#award3{
+	background:url(img/awards/intelmedium.jpg) no-repeat;
+	height: 123px;
+	width:125px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#award4{
+	background:url(img/awards/skydeckmedium.jpg) no-repeat;
+	height: 79px;
+	width:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#award5{
+	background:url(img/awards/columbiamedium.jpg)no-repeat;
+	height: 84px;
+	width:125px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.contactus{
+    height:450px;}
+  
+.about{
+	
+    height:1200px;
+
+
+}

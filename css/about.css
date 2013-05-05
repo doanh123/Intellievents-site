@@ -1,0 +1,97 @@
+
+
+.about{
+	display: none;
+	background:url(img/background_center.jpg) no-repeat;
+    height:1100px;
+    width:100%;
+    background-size: 100% 100%;
+	margin-top:-15px;
+	padding-top:20px;
+	padding-bottom:100px;
+}
+.about h2{
+	text-align:center;
+	font-size: 2em;
+    padding-top:8px;
+    color: #989898;
+    font-style: italic;
+}
+
+.about h4{
+	text-align:center;
+}
+
+.teamrow1{
+	margin-left:auto;
+	margin-right:auto;
+	border: 10px red;
+}
+
+.teammiddle{
+
+	height: 175px;
+	width:175px;
+	margin-left:auto;
+	margin-right:auto;
+	border:30px;
+    
+
+}
+
+
+
+#team1{
+	background:url(img/team/mark1.jpg);
+	margin-left:-33px;
+	
+}
+#team2{
+	background:url(img/team/rick1.jpg);
+}
+
+#team3{
+	background:url(img/team/doanh1.jpg);
+
+}
+
+#team4{
+	background:url(img/team/michel1.jpg);
+
+}
+
+#team5{
+	background:url(img/team/wilson1.jpg);
+
+}
+#team6{
+	background:url(img/team/vinit1.jpg);
+
+}
+#team7{
+	background:url(img/team/omar1.jpg);
+
+}
+#team8{
+	background:url(img/team/tom1.jpg);
+
+}
+#team9{
+	background:url(img/team/jaimee1.jpg);
+
+}
+#team10{
+	background:url(img/team/iris1.jpg);
+
+}
+
+#team11{
+	background:url(img/team/hamza.jpg);
+
+}
+
+#team12{
+	background:url(img/team/ankit1.jpg);
+
+}
+

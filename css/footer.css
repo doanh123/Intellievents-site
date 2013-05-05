@@ -1,9 +1,9 @@
 .footer{
-            background-color:#437495;;
+				background-color:#437495;
                 height:200px;
                 width:100%;
                 background-size: 100% 100%;
-                margin-top:10px;
+               
 
         }
         .footer_nav{
@@ -30,12 +30,84 @@
 }
          .company_footer{
             margin-left:50px;
+			cursor:pointer;
          }
          .solution_footer{
          margin-left:240px;
-         margin-top:-125px;
+         margin-top:-98px;
          }
          .legal_footer{
-         margin-left:420px;
+         margin-left:413px;
          margin-top:-80px;
          }
+		 
+		 .copyright{
+		 float:right;
+		 color:white;
+		 margin-top:125px;
+		 margin-right:20px;
+		 }
+		 
+		 .phonenumber{
+		 float:right;
+		 color:white;
+		 margin-top:120px;
+		 margin-right:120px;}
+		 
+		 
+		 .social_media{
+		 margin-top:-100px;
+		 }
+		 
+		 #linkedin{
+		 float:right;
+		 margin-right:50px;
+		 background:url(img/linkedin.png);
+		height: 35px;
+		width:35px;}
+		
+
+		
+		 #twitter{
+		 float:right;
+		 margin-right:20px;
+		 background:url(img/twitter.png);
+		height: 34px;
+		width:35px;
+		 }
+		 
+		 #facebook{
+		 float:right;
+		 margin-right:20px;
+		 background:url(img/facebook.png);
+		height: 35px;
+		width:35px;
+		 }
+
+		 
+		 #about_footer{
+		 cursor:pointer;}
+		 
+         #press_footer{
+		 cursor:pointer;}
+         #jobs_footer{
+		 cursor:pointer;
+		 }
+         #demo_footer{
+		 cursor:pointer;}
+         #contact_footer{
+		 cursor:pointer;
+		}
+		 
+		 #web_footer{
+		cursor:pointer;
+		}
+		#mobile_footer{
+		cursor:pointer;
+		}
+#pricing_footer{
+		cursor:pointer;
+		}
+
+
+              

@@ -1,11 +1,16 @@
 				.product2{
+				background:url(img/background_center.jpg) no-repeat;
+            	height:750px;
+            	width:100%;
+            	background-size: 100% 100%;
+				padding-bottom:50px;
         		}
 				.product_nav{
                 border-width:1px 0;
-                padding-top:5px;
+                padding-top:50px;
                 padding-bottom:5px;
                 text-align:center;
-                margin-top:40px;
+                margin-top:-15px;
             	}
             	.product_nav li{
                 display:inline;
@@ -18,82 +23,84 @@
                 padding-left:120px;
                 }
  				.product_nav li:hover{
-                background:url(/img/product_nav.jpg) no-repeat;
-                background-size: 100% 100%;
+
                 cursor: pointer;
             	}
-            #websolutionbutton {
-            border-right: 1px  grey solid;
-            background:url(/img/product_nav.jpg) no-repeat;
-            background-size: 100% 100%;
+            #mobilesolutionbutton {
+            border-left: 1px  grey solid;
+           
             }
+			
+			#websolutionbutton {
+			background:url(img/product_nav.png) no-repeat;
+            background-size: 100% 100%;
+			}
   			.websolution{
               
         	}
    			.websolutiondisplay{
             margin-top:20px;
-            height:500px;
+            height:600px;
             width: 100%;
         	}
         	#computer{
            
-           height:600px;
-           width: 600px;
-           margin-left:80px;
-           background-size: 100% 100%; 
-           background:url(/img/compscreen.png) no-repeat;
+           height:441px;
+           width: 700px;
+           margin-left:50px;
+           background:url(img/compscreen.png);
         }
    			#display_image0{
-            height:40px;
+            height:47px;
             width:436px;
             margin-left:80px;
             margin-top:0px;
         	}
          	#display_image1{
-            background: url(/img/websolution/socialcrm.png);
-            height:270px;
-            width:433px;
-            margin-left:81px;
+            background: url(img/websolution/socialcrmlarge.png);
+            height:316px;
+            width:504px;
+            margin-left:98px;
         	}
         	#display_image2{
-            background: url(/img/websolution/databasemanagement.png);
-            height:270px;
-            width:433px;
-            margin-left:81px;
+            background: url(img/websolution/leadscoringlarge.png);
+            height:316px;
+            width:504px;
+            margin-left:98px;
             display:none;
         	}
            	#display_image3{
-            background: url(/img/websolution/targetedmarketing.png);
-            height:270px;
-            width:433px;
-            margin-left:81px;
+            background: url(img/websolution/targetedmarketinglarge.png);
+            height:316px;
+            width:504px;
+            margin-left:98px;
             display:none;
         	}
             #display_image4{
-            background: url(/img/websolution/emailcampaign.png);
-            height:270px;
-            width:433px;
-            margin-left:81px;
+            background: url(img/websolution/emailcampaignlarge.png);
+            height:316px;
+            width:504px;
+            margin-left:98px;
             display:none;
         	}
             #display_image5{
-            background: url(/img/websolution/leadscoring.png);
-            height:270px;
-            width:433px;
-            margin-left:81px;
+            background: url(img/websolution/databasemanagementlarge.png);
+            height:316px;
+            width:504px;
+            margin-left:98px;
             display:none;
         	}
             #accordion{
             float:right;
             width:475px;
-            margin-right:120px;
-            margin-top:-600px;
+            margin-right:80px;
+            margin-top:-420px;
         	}
             .mobilesolution{
             display:none;
         	}
             .mobilesolutiondisplay{
-            margin-top:20px;
+            margin-top:40px;
             height:500px;
             width: 100%;
         	}
@@ -104,17 +111,17 @@
         	margin-right:150px;
         	margin-left:80px;
         	background-size: 100% 100%; 
-        	background:url(/img/iphone2.png) no-repeat;
+        	background:url(img/iphone2.png) no-repeat;
         	}
             #phone_image1{
-            background: url(/img/mobilesolution/friends.png);
+            background: url(img/mobilesolution/friends.png);
             height:315px;
             width:210px;
             margin-top:85px;
             margin-left:25px;
             }
             #phone_image2{
-            background: url(/img/mobilesolution/targetedmarketing.png);
+            background: url(img/mobilesolution/targetedmarketing.png);
             height:315px;
             width:210px;
             margin-left:25px;
@@ -122,7 +129,7 @@
             display:none;
             }
             #phone_image3{
-            background: url(/img/mobilesolution/fanloyalty.png);
+            background: url(img/mobilesolution/fanloyalty.png);
             height:315px;
             width:210px;
             margin-left:25px;
@@ -130,7 +137,7 @@
             display:none;
             }
             #phone_image4{
-                background: url(/img/mobilesolution/realtimepurchase.png);
+                background: url(img/mobilesolution/realtimepurchase.png);
             height:315px;
             width:210px;
             margin-left:25px;
@@ -138,7 +145,7 @@
             display:none;
             }
             #phone_image5{
-            background: url(/img/mobilesolution/communication.png);
+            background: url(img/mobilesolution/communication.png);
             height:315px;
             width:210px;
             margin-left:25px;
